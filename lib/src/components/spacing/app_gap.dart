@@ -19,7 +19,7 @@ class AppGap extends StatelessWidget {
   const AppGap.xl({super.key}) : size = _xl;
   
   // Основной конструктор
-  const AppGap({required this.size, super.key});
+  const AppGap(this.size, {super.key});
 
   @override
   Widget build(BuildContext context) {
